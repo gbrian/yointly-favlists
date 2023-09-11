@@ -10,7 +10,7 @@ curl https://raw.githubusercontent.com/gbrian/yointly-favlists/main/AI/pilotGPT.
 python3 -m venv pilot-env
 source pilot-env/bin/activate
 # codx debian needs to install libpq-dev
-apt install-y libpq-dev python3-dev python3-psycopg2
+apt install -y libpq-dev python3-dev python3-psycopg2
 #
 pip install -r requirements.txt
 
