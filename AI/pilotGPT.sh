@@ -13,3 +13,6 @@ pip install -r requirements.txt
 cd pilot
 mv .env.example .env
 python db_init.py
+
+# Some extra help
+curl https://raw.githubusercontent.com/gbrian/yointly-favlists/main/AI/pilotGPT.md > yointly-pilotGPT.md
